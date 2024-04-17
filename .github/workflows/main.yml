@@ -49,7 +49,7 @@ jobs:
       - name: Upload to Telegram
         uses: appleboy/telegram-action@master
         with:
-          to: ${{ BOT_ID="@Samloader" }}
+          to: ${{ BOT_ID="Samloader_bot" }}
           token: ${{ API="6952035953:AAHftq-yhF_CcIaUv8tLgy_ySt4JjrwmlMo" }}
           document: Dist/${{ github.event.inputs.model }}*.xz 
           format: html
